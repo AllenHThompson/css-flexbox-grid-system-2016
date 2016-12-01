@@ -1,0 +1,42 @@
+html {
+     box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+     box-sizing: inherit;
+     padding: 0;
+     margin: 0;
+}
+
+body {
+     font-family: "Source Sans Pro", sans-serif;
+     font-size: 2.2em;
+     line-height: 1.375em;
+     padding: 0;
+     margin: 0;
+     background-color: #FFF;
+     -webkit-font-smoothing: antialiased;
+}
+
+/* FLEXBOX GRID SYSTEM - THIS IS ALL IS TAKES*/
+.row {
+     display: flex;
+}
+
+.col {
+     flex: 1;
+     margin: .6em; /* IMPORTANT */
+     padding: .6em;
+}
+
+/* COLUMN SIZING */
+.col {
+     color: #FFF;
+     background-color: hsla(195, 60%, 50%, 1);
+}
+
+.col {
+     mar
+}
